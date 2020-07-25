@@ -10,7 +10,8 @@ namespace Persistance
         public static void SeedData(DataContext context)
         {
             if (context.Activities.Any()) return;
-            var activities = new List<Activity>{
+            var activities = new List<Activity>
+            {
                 new Activity
                 {
                     Title = "Past Activity 1",
@@ -18,7 +19,7 @@ namespace Persistance
                     Description = "Activity 2 months ago",
                     Category = "drinks",
                     City = "London",
-                    Venue = "Pub",
+                    Venue = "Pub"
                 },
                 new Activity
                 {
@@ -27,7 +28,7 @@ namespace Persistance
                     Description = "Activity 1 month ago",
                     Category = "culture",
                     City = "Paris",
-                    Venue = "Louvre",
+                    Venue = "Louvre"
                 },
                 new Activity
                 {
@@ -36,7 +37,7 @@ namespace Persistance
                     Description = "Activity 1 month in future",
                     Category = "culture",
                     City = "London",
-                    Venue = "Natural History Museum",
+                    Venue = "Natural History Museum"
                 },
                 new Activity
                 {
@@ -45,7 +46,7 @@ namespace Persistance
                     Description = "Activity 2 months in future",
                     Category = "music",
                     City = "London",
-                    Venue = "O2 Arena",
+                    Venue = "O2 Arena"
                 },
                 new Activity
                 {
@@ -54,7 +55,7 @@ namespace Persistance
                     Description = "Activity 3 months in future",
                     Category = "drinks",
                     City = "London",
-                    Venue = "Another pub",
+                    Venue = "Another pub"
                 },
                 new Activity
                 {
@@ -63,7 +64,7 @@ namespace Persistance
                     Description = "Activity 4 months in future",
                     Category = "drinks",
                     City = "London",
-                    Venue = "Yet another pub",
+                    Venue = "Yet another pub"
                 },
                 new Activity
                 {
@@ -72,7 +73,7 @@ namespace Persistance
                     Description = "Activity 5 months in future",
                     Category = "drinks",
                     City = "London",
-                    Venue = "Just another pub",
+                    Venue = "Just another pub"
                 },
                 new Activity
                 {
@@ -81,7 +82,7 @@ namespace Persistance
                     Description = "Activity 6 months in future",
                     Category = "music",
                     City = "London",
-                    Venue = "Roundhouse Camden",
+                    Venue = "Roundhouse Camden"
                 },
                 new Activity
                 {
@@ -90,7 +91,7 @@ namespace Persistance
                     Description = "Activity 2 months ago",
                     Category = "travel",
                     City = "London",
-                    Venue = "Somewhere on the Thames",
+                    Venue = "Somewhere on the Thames"
                 },
                 new Activity
                 {
